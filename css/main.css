@@ -80,7 +80,7 @@ body {
 /* header Section */
 .header {
   position: relative;
-  background: url('../img/Untitled-3.jpg')center/cover fixed no-repeat;
+  background: url('../img/Untitled-3.jpg') center/cover fixed no-repeat;
   height: 100vh;
   overflow: hidden;
 }
@@ -226,9 +226,26 @@ body {
 
 
 .project-container {
+  width: 400px;
+  height: 240px;
   position: relative;
   overflow: hidden;
   padding: 0;
+  margin-right: 20px !important;
+  margin-top: 20px;
+  overflow-y: hidden !important;
+}
+
+.project-img{
+  width: 100%;
+  height: 100%;
+}
+
+.projects-row{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .project-container .project-content {
